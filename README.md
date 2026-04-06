@@ -1,6 +1,6 @@
 # Scaler NSET Referral Guide | SST Student Experience + Code ARIYD8B6
 
-If you are researching **Scaler School of Technology**, the **NSET exam**, or trying to figure out whether SST is worth considering, this page is meant to help.
+If you are researching **Scaler School of Technology**, the **NSET exam**, or trying to figure out whether SST is worth considering, this page is meant to help. (you can also visit the link -> scaler-nset-referral-guide.vercel.app)
 
 I’m a current first-year student at **Scaler School of Technology, Bengaluru**, and I made this guide for students who are exploring options through **JEE, CUET, private entrance tests, or alternative software-focused college paths**.
 
