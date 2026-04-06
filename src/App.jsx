@@ -232,7 +232,7 @@ const App = () => {
             <div className="text-[0.75rem] uppercase tracking-widest text-primary-light mb-4 block font-semibold">USE DURING NSET REGISTRATION</div>
             <div className="font-code text-4xl sm:text-5xl font-bold text-white tracking-[0.1em] drop-shadow-[0_0_24px_rgba(34,197,94,0.3)] mb-6 flex items-center justify-between">
               <span>ARIYD8B6</span>
-              <button onClick={onCopy} className="w-12 h-12 rounded-lg glass-sub-panel hover:bg-white/10 flex items-center justify-center text-white transition-colors" aria-label="Copy code">
+              <button onClick={handleCopy} className="w-12 h-12 rounded-lg glass-sub-panel hover:bg-white/10 flex items-center justify-center text-white transition-colors" aria-label="Copy code">
                 {hasCopied ? <Check size={20} className="text-success" /> : <Copy size={20} />}
               </button>
             </div>
@@ -280,7 +280,7 @@ const App = () => {
             <div className="font-heading font-bold text-[1.2rem] text-white mb-1">Scaler NSET Guide</div>
             <p className="text-[0.9rem] text-white/50">Student-written guide to SST and NSET.</p>
           </div>
-          <button onClick={onCopy} className="h-11 px-6 rounded-md glass-sub-panel text-white hover:bg-white/10 transition-colors font-semibold text-sm">
+          <button onClick={handleCopy} className="h-11 px-6 rounded-md glass-sub-panel text-white hover:bg-white/10 transition-colors font-semibold text-sm">
             See referral code
           </button>
         </div>
