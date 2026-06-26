@@ -2,6 +2,7 @@ import React, { memo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import RevealSection from '../RevealSection';
+import { REFERRAL_CODE, REFERRAL_SAVINGS } from '../../lib/content';
 
 const FAQ_ITEMS = [
   {
@@ -18,7 +19,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'What is the Scaler NSET referral code?',
-    a: 'The code is ARIYD8B6. It gives ₹500 off the NSET registration fee.',
+    a: `The code is ${REFERRAL_CODE}. It gives ${REFERRAL_SAVINGS} off the NSET registration fee.`,
   },
 ];
 

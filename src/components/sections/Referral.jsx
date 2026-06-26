@@ -2,6 +2,7 @@ import React, { memo } from 'react';
 import { motion } from 'framer-motion';
 import { Copy, Check } from 'lucide-react';
 import RevealSection from '../RevealSection';
+import { REFERRAL_CODE, REFERRAL_SAVINGS } from '../../lib/content';
 
 const Referral = memo(({ onCopy, hasCopied }) => (
   <RevealSection id="referral" num={5} title="Referral code for NSET registration">
@@ -21,7 +22,7 @@ const Referral = memo(({ onCopy, hasCopied }) => (
       </div>
 
       <div className="font-code text-4xl sm:text-5xl font-bold text-white tracking-[0.1em] mb-6 flex items-center justify-between relative z-10">
-        <span>ARIYD8B6</span>
+        <span>{REFERRAL_CODE}</span>
         <button
           onClick={onCopy}
           className="w-12 h-12 rounded-lg glass-sub-panel hover:bg-white/10 flex items-center justify-center text-white transition-colors hover:scale-110 active:scale-95"
@@ -34,7 +35,7 @@ const Referral = memo(({ onCopy, hasCopied }) => (
       </div>
 
       <p className="text-white/80 text-sm relative z-10">
-        This gives <strong className="text-white">₹500 off</strong> the NSET registration fee.
+        This gives <strong className="text-white">{REFERRAL_SAVINGS} off</strong> the NSET registration fee.
       </p>
     </div>
   </RevealSection>

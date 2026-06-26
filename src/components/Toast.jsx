@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check } from 'lucide-react';
+import { REFERRAL_CODE } from '../lib/content';
 
 const Toast = memo(({ isVisible }) => (
   <AnimatePresence>
@@ -17,7 +18,7 @@ const Toast = memo(({ isVisible }) => (
           <Check size={14} strokeWidth={3} />
         </div>
         <span className="font-medium text-sm whitespace-nowrap">
-          Code <strong>ARIYD8B6</strong> copied to clipboard!
+          Code <strong>{REFERRAL_CODE}</strong> copied to clipboard!
         </span>
       </motion.div>
     )}

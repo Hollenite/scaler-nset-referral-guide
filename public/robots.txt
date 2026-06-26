@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://scaler-nset-referral-guide.vercel.app/sitemap.xml

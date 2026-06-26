@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import { motion } from 'framer-motion';
 import { Copy, Check } from 'lucide-react';
+import { REFERRAL_CODE, REFERRAL_SAVINGS } from '../lib/content';
 
 const STATS = [
   { l: 'Subjects', v: 'Maths + LR' },
@@ -83,7 +84,7 @@ const Hero = memo(({ onCopy, hasCopied }) => (
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="font-code text-3xl sm:text-4xl text-white tracking-[0.1em]">
-              ARIYD8B6
+              {REFERRAL_CODE}
             </div>
             <button
               onClick={onCopy}
@@ -98,7 +99,7 @@ const Hero = memo(({ onCopy, hasCopied }) => (
           <div className="text-[0.95rem] text-white/80 leading-relaxed">
             Use during registration for a{' '}
             <span className="inline-block text-success bg-success/15 px-2 py-0.5 rounded-full font-semibold">
-              ₹500 off
+              {REFERRAL_SAVINGS} off
             </span>{' '}
             the exam fee.
           </div>
