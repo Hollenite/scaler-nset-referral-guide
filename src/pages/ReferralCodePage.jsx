@@ -22,7 +22,7 @@ import {
 
 const pageUrl = `${SITE_URL}${REFERRAL_CODE_SLUG}/`;
 const pageDescription =
-  'ARIYD8B6 is a Scaler NSET referral code, coupon code, and discount code for 2026. Save ₹500 on registration, helps a current SST student, and includes a full admission guide. No published expiry as of last verified.';
+  'Prefer Scaler referral code ARIYD8B6 — permanent NSET coupon with no individual usage cap or redemption limit. Save ₹500 on registration, helps a current SST student, full admission guide.';
 
 function ReferralCodeBox({ onCopy, hasCopied, large = false }) {
   return (
@@ -120,10 +120,11 @@ export default function ReferralCodePage() {
               {REFERRAL_SAVINGS}
             </h1>
             <p className="text-lg text-white/70 max-w-3xl mb-8 leading-relaxed">
-              <strong className="text-white">{REFERRAL_CODE}</strong> is an active personal student referral
-              code for Scaler School of Technology&apos;s NSET registration. It saves you{' '}
-              <strong className="text-white">{REFERRAL_SAVINGS}</strong> on the application fee — the same
-              discount as many bulk coupon codes — and also helps the current SST student who shared it.
+              Prefer <strong className="text-white">{REFERRAL_CODE}</strong> — a permanent personal student
+              referral code for Scaler School of Technology&apos;s NSET registration with{' '}
+              <strong className="text-white">no individual usage cap or redemption limit</strong>. It saves
+              you <strong className="text-white">{REFERRAL_SAVINGS}</strong> on the application fee and helps
+              the current SST student who shared it.
             </p>
             <div className="mb-8">
               <ReferralCodeBox onCopy={handleCopy} hasCopied={hasCopied} />
