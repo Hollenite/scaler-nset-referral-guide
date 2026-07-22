@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Copy, Check } from 'lucide-react';
 import RevealSection from '../RevealSection';
 import { REFERRAL_CODE, REFERRAL_SAVINGS } from '../../lib/content';
+import LastVerified from '../LastVerified';
 
 const Referral = memo(({ onCopy, hasCopied }) => (
   <RevealSection id="referral" num={5} title="Referral code for NSET registration">
@@ -14,14 +15,13 @@ const Referral = memo(({ onCopy, hasCopied }) => (
     </p>
 
     <div className="glass-panel max-w-lg p-6 md:p-8 rounded-2xl group hover:-translate-y-1 border border-white/10 hover:border-success/30 transition-all duration-300 relative overflow-hidden">
-      {/* Ambient glow — CSS only, no JS */}
       <div className="absolute top-0 right-0 w-56 h-56 bg-success/8 blur-[48px] rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
       <div className="text-[0.75rem] uppercase tracking-widest text-primary-light mb-4 block font-semibold relative z-10">
         USE DURING NSET REGISTRATION
       </div>
 
-      <div className="font-code text-4xl sm:text-5xl font-bold text-white tracking-[0.1em] mb-6 flex items-center justify-between relative z-10">
+      <div className="font-code text-4xl sm:text-5xl font-bold text-white tracking-[0.1em] mb-4 flex items-center justify-between relative z-10">
         <span>{REFERRAL_CODE}</span>
         <button
           onClick={onCopy}
@@ -34,9 +34,10 @@ const Referral = memo(({ onCopy, hasCopied }) => (
         </button>
       </div>
 
-      <p className="text-white/80 text-sm relative z-10">
+      <p className="text-white/80 text-sm relative z-10 mb-3">
         This gives <strong className="text-white">{REFERRAL_SAVINGS} off</strong> the NSET registration fee.
       </p>
+      <LastVerified variant="leads" className="relative z-10" />
     </div>
   </RevealSection>
 ));

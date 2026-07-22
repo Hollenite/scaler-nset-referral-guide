@@ -2,6 +2,7 @@ import React, { memo } from 'react';
 import { motion } from 'framer-motion';
 import { Copy, Check } from 'lucide-react';
 import { REFERRAL_CODE, REFERRAL_SAVINGS } from '../lib/content';
+import LastVerified from './LastVerified';
 
 const STATS = [
   { l: 'Subjects', v: 'Maths + LR' },
@@ -96,13 +97,14 @@ const Hero = memo(({ onCopy, hasCopied }) => (
                 : <Copy size={18} />}
             </button>
           </div>
-          <div className="text-[0.95rem] text-white/80 leading-relaxed">
+          <div className="text-[0.95rem] text-white/80 leading-relaxed mb-3">
             Use during registration for a{' '}
             <span className="inline-block text-success bg-success/15 px-2 py-0.5 rounded-full font-semibold">
               {REFERRAL_SAVINGS} off
             </span>{' '}
             the exam fee.
           </div>
+          <LastVerified variant="leads" />
         </div>
         <div className="grid grid-cols-2 gap-4 pt-6 border-t border-white/10">
           {STATS.map((stat) => (

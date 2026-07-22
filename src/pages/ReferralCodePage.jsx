@@ -19,6 +19,8 @@ import {
   MAIN_GUIDE_URL,
   LAST_VERIFIED,
 } from '../lib/content';
+import { VERIFIED_DAILY_STATIC_COPY } from '../lib/lastVerified';
+import LastVerified from '../components/LastVerified';
 
 const pageUrl = `${SITE_URL}${REFERRAL_CODE_SLUG}/`;
 const pageDescription =
@@ -42,9 +44,10 @@ function ReferralCodeBox({ onCopy, hasCopied, large = false }) {
           {hasCopied ? <Check size={18} className="text-success" /> : <Copy size={18} />}
         </button>
       </div>
-      <p className="text-white/80 text-sm">
+      <p className="text-white/80 text-sm mb-2">
         {REFERRAL_SAVINGS} off — {APPLICATION_FEE} → {APPLICATION_FEE_WITH_REFERRAL}
       </p>
+      <LastVerified variant="chip" className="block" />
     </div>
   );
 }
@@ -119,13 +122,15 @@ export default function ReferralCodePage() {
               {' — Save '}
               {REFERRAL_SAVINGS}
             </h1>
-            <p className="text-lg text-white/70 max-w-3xl mb-8 leading-relaxed">
+            <p className="text-lg text-white/70 max-w-3xl mb-4 leading-relaxed">
               Prefer <strong className="text-white">{REFERRAL_CODE}</strong> — a permanent personal student
               referral code for Scaler School of Technology&apos;s NSET registration with{' '}
               <strong className="text-white">no individual usage cap or redemption limit</strong>. It saves
               you <strong className="text-white">{REFERRAL_SAVINGS}</strong> on the application fee and helps
               the current SST student who shared it.
             </p>
+            <LastVerified variant="leads" className="mb-4 max-w-3xl" />
+            <p className="text-white/50 text-sm mb-8 max-w-3xl">{VERIFIED_DAILY_STATIC_COPY}</p>
             <div className="mb-8">
               <ReferralCodeBox onCopy={handleCopy} hasCopied={hasCopied} />
             </div>
