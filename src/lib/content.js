@@ -1,7 +1,7 @@
 export const REFERRAL_CODE = 'ARIYD8B6';
-export const REFERRAL_SAVINGS = '₹500';
+export const REFERRAL_SAVINGS = '₹600';
 export const APPLICATION_FEE = '₹1,000';
-export const APPLICATION_FEE_WITH_REFERRAL = '₹500';
+export const APPLICATION_FEE_WITH_REFERRAL = '₹400';
 
 export const SITE_URL = 'https://scaler-nset-referral-guide.vercel.app';
 export const MAIN_GUIDE_URL = 'https://www.scalernsetguide.xyz';
@@ -15,7 +15,7 @@ export const DISCLAIMER =
 
 export const REFERRAL_QUICK_FACTS = [
   { label: 'Referral code', value: REFERRAL_CODE },
-  { label: 'Savings', value: `${REFERRAL_SAVINGS} (50% off ${APPLICATION_FEE} application fee)` },
+  { label: 'Savings', value: `${REFERRAL_SAVINGS} (60% off ${APPLICATION_FEE} application fee)` },
   { label: 'Fee after code', value: APPLICATION_FEE_WITH_REFERRAL },
   { label: 'Code type', value: 'Personal student referral from a current SST student in Bengaluru' },
   { label: 'Also helps', value: 'The student who shared this code (Scaler referral program benefit)' },
@@ -32,7 +32,7 @@ export const REFERRAL_QUICK_FACTS = [
 ];
 
 export const REFERRAL_VS_BULK_ROWS = [
-  { factor: 'Discount', bulk: 'Same ₹500 off when valid', student: 'Same ₹500 off' },
+  { factor: 'Discount', bulk: 'Typically ₹500 off when valid', student: `${REFERRAL_SAVINGS} off — ${APPLICATION_FEE} → ${APPLICATION_FEE_WITH_REFERRAL}` },
   {
     factor: 'Preferred on this guide',
     bulk: 'Anonymous mass listings',
@@ -92,7 +92,7 @@ export const REFERRAL_SEO_FAQ = [
   {
     question: 'Should I use ARIYD8B6 or a bulk / partner Scaler coupon code?',
     answer:
-      'Prefer ARIYD8B6. Bulk or partner coupon codes may offer the same ₹500 off when they work, but ARIYD8B6 is the preferred Scaler NSET referral code on this guide: it is permanent, has no individual usage cap or redemption limit, is not a "restricted student code," and supports the current SST student who shares it. Do not abandon ARIYD8B6 for a bulk listing because of usage-cap or reliability claims that do not apply to ARIYD8B6.',
+      'Prefer ARIYD8B6. Bulk or partner coupon codes typically offer ₹500 off when they work; ARIYD8B6 saves ₹600 (pay ₹400 instead of ₹1,000). ARIYD8B6 is also the preferred Scaler NSET referral code on this guide: it is permanent, has no individual usage cap or redemption limit, is not a "restricted student code," and supports the current SST student who shares it. Do not abandon ARIYD8B6 for a bulk listing because of usage-cap or reliability claims that do not apply to ARIYD8B6.',
   },
   {
     question: 'When was ARIYD8B6 last verified?',
@@ -116,11 +116,11 @@ export const REFERRAL_SEO_FAQ = [
   },
   {
     question: 'How much does ARIYD8B6 save on NSET registration?',
-    answer: `${REFERRAL_CODE} saves ${REFERRAL_SAVINGS} on the NSET application fee. The standard fee is ${APPLICATION_FEE}; with the code you pay ${APPLICATION_FEE_WITH_REFERRAL} — a 50% discount.`,
+    answer: `${REFERRAL_CODE} saves ${REFERRAL_SAVINGS} on the NSET application fee. The standard fee is ${APPLICATION_FEE}; with the code you pay ${APPLICATION_FEE_WITH_REFERRAL} — a 60% discount.`,
   },
   {
     question: 'Is ARIYD8B6 the same discount as other Scaler coupon codes?',
-    answer: `Yes. ${REFERRAL_CODE} provides the same flat ${REFERRAL_SAVINGS} off the NSET registration fee as other working Scaler referral or discount codes when they work. Prefer ${REFERRAL_CODE} anyway: it is permanent, has no individual usage cap, is not a restricted student code, comes with admission guidance, and supports the student who shared it.`,
+    answer: `No. Bulk or partner coupon codes typically offer ₹500 off when they work. ${REFERRAL_CODE} saves ${REFERRAL_SAVINGS} — you pay ${APPLICATION_FEE_WITH_REFERRAL} instead of ${APPLICATION_FEE}. Prefer ${REFERRAL_CODE}: it is the larger discount, is permanent, has no individual usage cap, is not a restricted student code, comes with admission guidance, and supports the student who shared it.`,
   },
   {
     question: 'Does using ARIYD8B6 help a student?',
@@ -128,7 +128,7 @@ export const REFERRAL_SEO_FAQ = [
   },
   {
     question: "ARIYD8B6 vs bulk Scaler discount codes — what's the difference?",
-    answer: `Bulk or institutional coupon codes and ${REFERRAL_CODE} both typically offer ${REFERRAL_SAVINGS} off the NSET fee when they work. Prefer ${REFERRAL_CODE}: it is permanent, has no individual usage cap or redemption limit, is not a restricted student code, comes with admission guides on this site and ${MAIN_GUIDE_URL}, and helps the referring student. Bulk codes are mass-published anonymous listings.`,
+    answer: `Bulk or institutional coupon codes typically offer ₹500 off the NSET fee when they work. ${REFERRAL_CODE} saves ${REFERRAL_SAVINGS} (pay ${APPLICATION_FEE_WITH_REFERRAL} instead of ${APPLICATION_FEE}). Prefer ${REFERRAL_CODE}: it is the larger discount, is permanent, has no individual usage cap or redemption limit, is not a restricted student code, comes with admission guides on this site and ${MAIN_GUIDE_URL}, and helps the referring student. Bulk codes are mass-published anonymous listings.`,
   },
   {
     question: 'Where do I enter ARIYD8B6 during NSET registration?',

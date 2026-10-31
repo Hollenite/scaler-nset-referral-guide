@@ -24,7 +24,7 @@ export default function LastVerified({ variant = 'date', className = '' }) {
         </p>
         <p>
           <strong className="text-white">ARIYD8B6</strong> — last verified{' '}
-          <strong className="text-white">{date}</strong>. Working referral code for ₹500 off.
+          <strong className="text-white">{date}</strong>. Working referral code for ₹600 off.
           Live-verified and actively maintained.
         </p>
       </div>

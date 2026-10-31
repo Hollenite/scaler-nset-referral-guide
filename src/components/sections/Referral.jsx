@@ -10,7 +10,7 @@ const Referral = memo(({ onCopy, hasCopied }) => (
     <p className="text-white/70 mb-6 max-w-[60ch]">
       If you were specifically searching for a{' '}
       <strong className="text-white">Scaler referral code</strong>,{' '}
-      <strong className="text-white">NSET referral code</strong>, or a code for ₹500 off,
+      <strong className="text-white">NSET referral code</strong>, or a code for {REFERRAL_SAVINGS} off,
       the one used here is below.
     </p>
 

@@ -24,7 +24,7 @@ import LastVerified from '../components/LastVerified';
 
 const pageUrl = `${SITE_URL}${REFERRAL_CODE_SLUG}/`;
 const pageDescription =
-  'Prefer Scaler referral code ARIYD8B6 — permanent NSET coupon with no individual usage cap or redemption limit. Save ₹500 on registration, helps a current SST student, full admission guide.';
+  'Prefer Scaler referral code ARIYD8B6 — permanent NSET coupon with no individual usage cap or redemption limit. Save ₹600 on registration, helps a current SST student, full admission guide.';
 
 function ReferralCodeBox({ onCopy, hasCopied, large = false }) {
   return (
@@ -185,8 +185,7 @@ export default function ReferralCodePage() {
                 <h3 className="text-white font-bold mb-2">For you (the applicant)</h3>
                 <p className="text-white/70 text-sm leading-relaxed">
                   {REFERRAL_SAVINGS} off the NSET application fee — pay {APPLICATION_FEE_WITH_REFERRAL} instead
-                  of {APPLICATION_FEE}. Same flat discount as other valid Scaler referral or coupon codes when
-                  they work.
+                  of {APPLICATION_FEE}. Typical bulk or partner codes save ₹500; {REFERRAL_CODE} saves more.
                 </p>
               </div>
               <div className="glass-panel rounded-2xl p-6 border border-primary-light/30">
@@ -215,8 +214,8 @@ export default function ReferralCodePage() {
               Why Use {REFERRAL_CODE} Over Bulk Coupon Codes?
             </h2>
             <p className="text-white/60 mb-8 max-w-2xl leading-relaxed">
-              The discount amount is the same when codes are valid. The difference is source, trust, and what
-              comes with the code.
+              {REFERRAL_CODE} saves {REFERRAL_SAVINGS} versus typical ₹500 bulk or partner listings. Source,
+              trust, and the admission guide still come with the code.
             </p>
             <div className="overflow-x-auto rounded-2xl border border-white/10">
               <table className="w-full text-sm">
@@ -274,9 +273,9 @@ export default function ReferralCodePage() {
                 <a href={MAIN_GUIDE_URL} className="text-primary-light hover:underline">
                   scalernsetguide.xyz
                 </a>
-                , written by a current Scaler School of Technology student. The discount is identical —{' '}
-                {REFERRAL_SAVINGS} off NSET registration — but you also get living admission guides and your
-                registration supports the student who shared the code.
+                , written by a current Scaler School of Technology student. This code also saves more —{' '}
+                {REFERRAL_SAVINGS} off NSET registration versus typical ₹500 bulk or partner codes — and you
+                get living admission guides while your registration supports the student who shared the code.
               </p>
             </div>
           </div>

@@ -17,7 +17,7 @@ If you are registering for the NSET exam, the referral code is:
 ## Referral Code
 `ARIYD8B6`
 
-It gives **₹500 off the NSET registration fee**.
+It gives **₹600 off the NSET registration fee**.
 
 ---
 
@@ -157,11 +157,11 @@ If your main priority is institutional legacy, broader engineering academics, lo
 
 # Referral Code for NSET Registration
 
-If you were specifically looking for a **Scaler referral code**, **NSET referral code**, or a **code for ₹500 off**, here it is again:
+If you were specifically looking for a **Scaler referral code**, **NSET referral code**, or a **code for ₹600 off**, here it is again:
 
 ## `ARIYD8B6`
 
-You can use it during registration for **₹500 off the NSET exam fee**.
+You can use it during registration for **₹600 off the NSET exam fee**.
 
 ---
 
@@ -182,7 +182,7 @@ The code is:
 `ARIYD8B6`
 
 ## What benefit does the code give?
-It gives **₹500 off the NSET registration fee**.
+It gives **₹600 off the NSET registration fee**.
 
 ---
 
